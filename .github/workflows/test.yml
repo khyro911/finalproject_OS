@@ -29,3 +29,7 @@ jobs:
           xvfb-run -a python -m pytest -v tests
       - name: Text report
         run: python monitor.py
+      - name: Windows launcher (run.bat --text)
+        if: runner.os == 'Windows'
+        shell: cmd
+        run: run.bat --text

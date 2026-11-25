@@ -31,7 +31,10 @@ Requires Python 3.9 or newer.
 ### Windows
 
 Double-click **`run.bat`**.
-The first run sets up a local `.venv` folder and installs psutil (about 10 seconds); after that the window opens straight away.
+The first run sets up a local `.venv` folder and installs psutil (about 10–20 seconds); after that the window opens straight away.
+Keep the small black window open while you use the monitor; if anything goes wrong it shows the reason there.
+
+**Run as administrator** (to see and end processes of other users and services): right-click `run.bat` → *Run as administrator* → *Yes*.
 
 Or from a terminal:
 
