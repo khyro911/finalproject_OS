@@ -26,7 +26,7 @@ Built with Python, Tkinter and [psutil](https://github.com/giampaolo/psutil).
 
 ## Run it
 
-Requires Python 3.8 or newer.
+Requires Python 3.9 or newer.
 
 ### Windows
 

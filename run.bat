@@ -24,7 +24,7 @@ start "" ".venv\Scripts\pythonw.exe" app.py
 exit /b 0
 
 :nopython
-echo Python 3.8 or newer is required.
+echo Python 3.9 or newer is required.
 echo Install it from https://www.python.org/downloads/ and tick "Add python.exe to PATH".
 pause
 exit /b 1
